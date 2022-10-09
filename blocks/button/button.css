@@ -1,0 +1,24 @@
+.button {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  border: 2px solid var(--accent-bright);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  box-sizing: border-box;
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    var(--accent-bright),
+    var(--accent-soft) 50%,
+    var(--accent-soft) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -110%;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-position: 0;
+}

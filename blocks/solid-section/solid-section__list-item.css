@@ -1,0 +1,9 @@
+.solid-section__list-item {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.solid-section__list-item:last-of-type {
+  margin-bottom: 0;
+}

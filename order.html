@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/order.css">
+  <title>ДАЙ ЛАПУ</title>
+</head>
+
+<body class="root">
+  <header class="header header_page_order" id="header">
+    <a class="logo header__logo header__logo_page_order" href="#">
+      <span class="logo__img"></span><span class="logo__text">дай лапу</span>
+    </a>
+    <h1 class="header__title">Форма заказа щенка</h1>
+  </header>
+  <main class="content">
+    <form class="form" action="" method="post" name="order" autocomplete="on">
+
+
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">контактная информация</legend>
+
+        <label class="form__label form__label_for_text" for="firstname">имя</label>
+        <input class="form__input" type="text" name="firstname" id="firstname" value="" placeholder="Александр" required
+          autofocus><br>
+
+
+        <label class="form__label form__label_for_text" for="lastname">фамилия</label>
+        <input class="form__input" type="text" name="lastname" id="lastname" value="" placeholder="Иванов" required><br>
+
+
+        <label class="form__label form__label_for_text" for="phone">телефон</label>
+        <input class="form__input" type="tel" name="phone" id="phone" value="+7" minlength="12" maxlength="12"
+          placeholder="" required><br>
+
+
+        <label class="form__label form__label_for_text" for="e-mail">e-mail</label>
+        <input class="form__input" type="email" name="e-mail" id="e-mail" value="" placeholder="dog@example.ru">
+
+      </fieldset>
+
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">какого щенка вы хотите?</legend>
+
+        <h3 class="form__input-group-title">пол</h3>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="gender" value="male">
+          <img class="form__label-icon" src="./images/male-dark.svg" alt="кобель">
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="gender" value="fermale">
+          <img class="form__label-icon" src="./images/fermale-dark.svg" alt="сука">
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="gender" value="no" checked>
+          любой
+        </label>
+        <hr class="root__hr">
+        <h3 class="form__input-group-title">окрас</h3>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="color" value="red">
+          рыжий
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="color" value="white">
+          белый
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="color" value="tiger">
+          тигровый
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="color" value="no" checked>
+          любой
+        </label>
+        <hr class="root__hr">
+        <h3 class="form__input-group-title">возраст до</h3>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="age" value="3">
+          3-х месяцев
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="age" value="6">
+          6-ти месяцев
+        </label>
+        <label class="form__label">
+          <input class="form__input" type="radio" name="age" value="12" checked>
+          1-го года
+        </label>
+      </fieldset>
+      <div class="form__buttons-group">
+        <button class="button" type="reset">сбросить</button>
+        <button class="button" type="submit">отправить</button>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>

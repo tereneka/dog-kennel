@@ -1,0 +1,14 @@
+.solid-section_scrolled {
+  gap: 0;
+}
+
+.solid-section_scrolled::after {
+  content: " ";
+  width: 8px;
+  height: 70vh;
+  background-image: linear-gradient(var(--accent-bright), var(--accent-soft));
+  border-radius: 16px;
+  position: absolute;
+  top: 14vh;
+  right: 5%;
+}

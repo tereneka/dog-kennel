@@ -1,0 +1,64 @@
+.form__input {
+  background-color: transparent;
+}
+
+.form__input[type="text"],
+.form__input[type="tel"],
+.form__input[type="email"] {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dark-text);
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.form__input[type="text"]:focus {
+  outline-color: var(--accent-bright);
+  box-shadow: 0 0 4px var(--accent-bright);
+}
+
+.form__input[type="tel"]:focus {
+  outline-color: var(--accent-bright);
+  box-shadow: 0 0 4px var(--accent-bright);
+}
+
+.form__input[type="email"]:focus {
+  outline-color: var(--accent-bright);
+  box-shadow: 0 0 4px var(--accent-bright);
+}
+
+.form__input::placeholder,
+.form__input::-webkit-input-placeholder,
+.form__input::-moz-placeholder,
+.form__input::-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.form__input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background-image: url(../../../images/heart.svg);
+  display: inline-block;
+  vertical-align: text-bottom;
+  position: relative;
+}
+
+.form__input[type="radio"]::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  height: 20px;
+  width: 20px;
+  background-image: url(../../../images/heart-fill.svg);
+  scale: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="radio"]:checked::before {
+  scale: 1;
+}

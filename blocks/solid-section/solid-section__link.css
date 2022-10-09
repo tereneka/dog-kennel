@@ -1,0 +1,11 @@
+.solid-section__link {
+  text-decoration: none;
+  color: var(--accent-soft);
+  font-size: 20px;
+  font-weight: 600;
+  transition: opacity 0.3s;
+}
+
+.solid-section__link:hover {
+  opacity: 0.7;
+}

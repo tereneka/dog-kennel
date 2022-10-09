@@ -1,0 +1,7 @@
+.header_page_order {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

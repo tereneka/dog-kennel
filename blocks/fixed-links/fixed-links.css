@@ -1,0 +1,8 @@
+.fixed-links {
+  position: fixed;
+  bottom: 10px;
+  z-index: 1;
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+}

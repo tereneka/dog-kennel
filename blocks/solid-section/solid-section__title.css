@@ -1,0 +1,7 @@
+.solid-section__title {
+  flex-basis: 20%;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--accent-soft);
+}

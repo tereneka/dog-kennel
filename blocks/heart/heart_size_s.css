@@ -1,0 +1,6 @@
+.heart_size_s {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  vertical-align: sub;
+}

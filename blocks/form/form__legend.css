@@ -1,0 +1,22 @@
+.form__legend {
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 0;
+  background-image: linear-gradient(
+    to right,
+    var(--accent-bright),
+    var(--accent-soft) 50%,
+    var(--accent-soft) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.form__fieldset:focus-within .form__legend {
+  background-position: 0;
+}

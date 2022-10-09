@@ -1,0 +1,42 @@
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  /* ниже свойства для смены цвета и подчеркивания ссыдки при наведении */
+  background-image: linear-gradient(
+    to right,
+    var(--accent-bright),
+    var(--accent-soft) 50%,
+    var(--dark-text) 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.nav__link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: var(--accent-soft);
+  bottom: -2px;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  background-position: 0;
+}
+
+.nav__link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}

@@ -1,0 +1,7 @@
+:root {
+  --main-back: rgb(250, 250, 250);
+  --accent-back: rgb(242, 242, 242);
+  --dark-text: rgba(0, 0, 0, 0.6);
+  --accent-bright: rgb(225, 79, 34);
+  --accent-soft: rgb(5, 75, 86);
+}

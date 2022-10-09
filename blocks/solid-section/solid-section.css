@@ -1,0 +1,10 @@
+.solid-section {
+  min-height: 70vh;
+  padding: 15vh 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  color: var(--dark-text);
+  gap: 10vw;
+  position: relative;
+}

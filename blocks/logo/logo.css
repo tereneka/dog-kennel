@@ -1,0 +1,6 @@
+.logo {
+  line-height: 2;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px var(--dark-text);
+}

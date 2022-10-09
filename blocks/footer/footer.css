@@ -1,0 +1,8 @@
+.footer {
+  min-height: 20vh;
+  background-color: var(--accent-soft);
+  padding: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}

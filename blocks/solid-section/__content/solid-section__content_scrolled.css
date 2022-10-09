@@ -1,0 +1,25 @@
+.solid-section__content_scrolled {
+  overflow-x: scroll;
+  padding: 3vh 0;
+  box-sizing: border-box;
+  position: relative;
+  top: -20px;
+  left: 0px;
+  flex-basis: 70%;
+}
+
+.solid-section__content_scrolled::-webkit-scrollbar {
+  width: 16px;
+}
+
+.solid-section__content_scrolled::-webkit-scrollbar-thumb {
+  height: 16px;
+  background: var(--accent-soft);
+  border-radius: 16px;
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.solid-section__content_scrolled::-webkit-scrollbar-track {
+  background-color: transparent;
+}

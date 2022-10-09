@@ -1,0 +1,12 @@
+.form__fieldset {
+  border: 0;
+  border-radius: 16px;
+  background: linear-gradient(85deg, var(--accent-back), var(--dark-text));
+  box-shadow: 20px 20px 20px 10px var(--dark-text);
+  padding: 15vh 10vw;
+  color: var(--dark-text);
+  min-height: 50vh;
+  width: 70vw;
+  margin: 15vh auto;
+  box-sizing: border-box;
+}

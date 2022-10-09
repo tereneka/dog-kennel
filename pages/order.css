@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+@import url(../vendor/variables.css);
+
+@import url(../blocks/html/html.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/root/root__hr.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_page/header_page_order.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/logo__img.css);
+@import url(../blocks/logo/logo__text.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/_page/header__logo_page_order.css);
+@import url(../blocks/header/header__title.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/logo__img.css);
+@import url(../blocks/logo/logo__text.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/form__legend.css);
+@import url(../blocks/form/form__input-group-title.css);
+@import url(../blocks/form/form__label.css);
+@import url(../blocks/form/__label/_for/form__label_for_text.css);
+@import url(../blocks/form/form__label-icon.css);
+@import url(../blocks/form/form__fieldset.css);
+@import url(../blocks/form/form__input.css);
+
+@import url(../blocks/form/form__buttons-group.css);
+@import url(../blocks/button/button.css);

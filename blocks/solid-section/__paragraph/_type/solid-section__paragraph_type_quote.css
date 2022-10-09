@@ -1,0 +1,13 @@
+.solid-section__paragraph_type_quote {
+  position: relative;
+}
+
+.solid-section__paragraph_type_quote::before {
+  content: "“";
+  position: absolute;
+  left: 0;
+  top: -4vh;
+  font-size: 80px;
+  font-weight: 800;
+  color: var(--accent-soft);
+}

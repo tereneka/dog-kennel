@@ -1,0 +1,9 @@
+.form__input-group-title {
+  margin: 20px 0 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.form__input-group-title:first-of-type {
+  margin-top: 0;
+}

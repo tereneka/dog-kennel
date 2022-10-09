@@ -1,0 +1,7 @@
+.header__nav {
+  width: 90%;
+  margin: auto;
+  padding-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+}

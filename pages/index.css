@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+@import url(../vendor/variables.css);
+
+@import url(../blocks/html/html.css);
+
+@import url(../blocks/root/root.css);
+@import url(../blocks/root/root__letter-combine.css);
+@import url(../blocks/root/root__hr.css);
+
+@import url(../blocks/heart/heart.css);
+@import url(../blocks/heart/heart_size_s.css);
+
+@import url(../blocks/fixed-links/fixed-links.css);
+@import url(../blocks/fixed-links/fixed-links__link.css);
+@import url(../blocks/up/up.css);
+
+@import url(../blocks/img-section/img-section.css);
+@import url(../blocks/img-section/img-section__title.css);
+@import url(../blocks/img-section/img-section__subtitle.css);
+@import url(../blocks/img-section/_name/img-section_name_header-title.css);
+@import url(../blocks/img-section/_name/img-section_name_lempton-qoute.css);
+@import url(../blocks/img-section/_name/img-section_name_vishnevsky-qoute.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_page/header_page_index.css);
+@import url(../blocks/header/header__nav-logo-box.css);
+@import url(../blocks/header/header__nav.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/_page/header__logo_page_index.css);
+
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/nav__list.css);
+@import url(../blocks/nav/nav__link.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/logo__img.css);
+@import url(../blocks/logo/logo__text.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/solid-section/solid-section.css);
+@import url(../blocks/solid-section/solid-section_scrolled.css);
+@import url(../blocks/solid-section/solid-section__title.css);
+@import url(../blocks/solid-section/__content/solid-section__content.css);
+@import url(../blocks/solid-section/__content/solid-section__content_scrolled.css);
+@import url(../blocks/solid-section/__paragraph/solid-section__paragraph.css);
+@import url(../blocks/solid-section/__paragraph/_type/solid-section__paragraph_type_quote.css);
+@import url(../blocks/solid-section/solid-section__link.css);
+@import url(../blocks/solid-section/__list/solid-section__list.css);
+@import url(../blocks/solid-section/__list/_type/solid-section__list_type_success.css);
+@import url(../blocks/solid-section/__list/_type/solid-section__list_type_warning.css);
+@import url(../blocks/solid-section/solid-section__list-item.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/cards__item.css);
+@import url(../blocks/cards/cards__title.css);
+@import url(../blocks/cards/__icon/cards__icon.css);
+@import url(../blocks/cards/__icon/_name/cards__icon_name_fermale.css);
+@import url(../blocks/cards/__icon/_name/cards__icon_name_male.css);
+@import url(../blocks/cards/cards__img.css);
+@import url(../blocks/cards/cards__descr.css);
+@import url(../blocks/cards/cards__descr-point.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/footer__social.css);
+@import url(../blocks/footer/footer__social-item.css);
+@import url(../blocks/footer/footer__social-link.css);
+@import url(../blocks/footer/footer__social-icon.css);
+
+@import url(../blocks/footer/footer__contacts.css);
+@import url(../blocks/footer/footer__contacts-link.css);
