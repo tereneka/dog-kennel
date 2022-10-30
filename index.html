@@ -11,41 +11,39 @@
 
 <body class="root">
   <header class="header header_page_index" id="header">
-    <div class="header__nav-logo-box">
-      <nav class="nav header__nav">
-        <ul class="nav__list">
-          <li>
-            <a class="nav__link" href="#">о нас</a>
-          </li>
-          <li>
-            <a class="nav__link" href="#">наша команда</a>
-          </li>
-        </ul>
-        <ul class="nav__list">
-          <li>
-            <a class="nav__link" href="#">галерея</a>
-          </li>
-          <li>
-            <a class="nav__link" href="#">контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="logo header__logo header__logo_page_index" href="#">
-        <span class="logo__img"></span><span class="logo__text">дай лапу</span>
-      </a>
-    </div>
-
-    <section class="img-section img-section_name_header-title">
-      <h1 class="img-section__title">
-        Мы разводим собак породы <span class="letter-combine">Акита-ину<span class="heart heart_size_s"></span></span>
-      </h1>
-      <p class="img-section__subtitle">
-        Подарите себе лучшего друга<span class="heart heart_size_s"></span>
-      </p>
-    </section>
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li>
+          <a class="nav__link" href="#">о нас</a>
+        </li>
+        <li>
+          <a class="nav__link" href="#team">наша команда</a>
+        </li>
+      </ul>
+      <ul class="nav__list">
+        <li>
+          <a class="nav__link" href="#">галерея</a>
+        </li>
+        <li>
+          <a class="nav__link" href="#footer">контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="logo header__logo header__logo_page_index" href="#">
+      <span class="logo__img"></span><span class="logo__text">дай лапу</span>
+    </a>
   </header>
 
   <main class="content">
+    <section class="img-section img-section_name_header-title">
+      <h1 class="img-section__title">
+        Мы&nbsp;разводим собак породы <span class="root__word-wrap">Акита-ину<span
+            class="heart heart_size_s"></span></span>
+      </h1>
+      <p class="img-section__subtitle">
+        Подарите себе лучшего <span class="root__word-wrap">друга<span class="heart heart_size_s"></span></span>
+      </p>
+    </section>
     <section class="solid-section">
       <h2 class="solid-section__title">Описание породы</h2>
       <blockquote class="solid-section__content"
@@ -71,8 +69,8 @@
     <section class="img-section img-section_name_lempton-qoute">
       <blockquote>
         <p class="img-section__title">
-          "Тот, кто говорит, что счастье не купишь, никогда не покупал <span class="root__letter-combine">щенка<span
-              class="heart heart_size_s"></span>"</span>
+          &quot;Тот, кто говорит, что счастье не&nbsp;купишь, никогда не&nbsp;покупал <span
+            class="root__word-wrap">щенка<span class="heart heart_size_s"></span>&quot;</span>
         </p>
       </blockquote>
       <p class="img-section__subtitle">
@@ -114,15 +112,15 @@
     <section class="img-section img-section_name_vishnevsky-qoute">
       <blockquote>
         <p class="img-section__title">
-          "Боже, сделай меня тем, кем я кажусь моей
-          <span class="root__letter-combine">собаке<span class="heart heart_size_s"></span>"</span>
+          &quot;Боже, сделай меня тем, кем я&nbsp;кажусь моей
+          <span class="root__word-wrap">собаке<span class="heart heart_size_s"></span>&quot;</span>
         </p>
       </blockquote>
       <p class="img-section__subtitle">
         Я.Вишневсий
       </p>
     </section>
-    <section class="solid-section solid-section_scrolled">
+    <section class="solid-section solid-section_scrolled" id="team">
       <h2 class="solid-section__title">Наша команда</h2>
       <div class="solid-section__content solid-section__content_scrolled">
         <ul class="cards">
@@ -183,51 +181,58 @@
         </ul>
       </div>
     </section>
-
+    <section class="gallery">
+      <img class="gallery__photo" src="./images/gallery/puppies1.png" alt="щенки">
+      <img class="gallery__photo" src="./images/gallery/puppies2.png" alt="щенки">
+      <img class="gallery__photo" src="./images/gallery/puppies3.png" alt="щенки">
+      <img class="gallery__photo" src="./images/gallery/puppies4.png" alt="щенки">
+      <img class="gallery__photo" src="./images/gallery/puppies5.png" alt="щенки">
+      <img class="gallery__photo" src="./images/gallery/puppies6.png" alt="щенки">
+    </section>
   </main>
   <div class="fixed-links">
     <a class="button fixed-links__link" href="#header">наверх</a>
     <a class="button fixed-links__link" href="./order.html" target="_blank">заказать щенка</a>
   </div>
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <ul class="footer__social">
-      <li class="footer__social-item">
+      <li>
         <a class="footer__social-link" href="#">
           <img class="footer__social-icon" src="./images/insta.svg" alt="Instagram">
         </a>
       </li>
-      <li class="footer__social-item">
+      <li>
         <a class="footer__social-link" href="#">
           <img class="footer__social-icon" src="./images/facebook.svg" alt="Facebook">
         </a>
       </li>
-      <li class="footer__social-item">
+      <li>
         <a class="footer__social-link" href="#">
           <img class="footer__social-icon" src="./images/telegram.svg" alt="Telegram">
         </a>
       </li>
-      <li class="footer__social-item">
+      <li>
         <a class="footer__social-link" href="#">
           <img class="footer__social-icon" src="./images/whatsapp.svg" alt="Whatsapp">
         </a>
       </li>
     </ul>
     <ul class="footer__contacts">
-      <li class="footer__contacts-item">
+      <li>
         <a class="footer__contacts-link" target="_blank"
           href="https://yandex.ru/maps/geo/selo_sofyino/53061683/?from=tabbar&ll=38.184383%2C55.496694&source=serp_navig&z=14.08">
           <img class="footer__contacts-icon" src="./images/map.svg" alt="адрес">
           МО, Раменский район, село Софьино
         </a>
       </li>
-      <li class="footer__contacts-item">
+      <li>
         <a class="footer__contacts-link" href="tel:+79191057885">
           <img class="footer__contacts-icon" src="./images/telephone.svg" alt="телефон">
           +79191057885
         </a>
       </li>
-      <li class="footer__contacts-item">
+      <li>
         <a class="footer__contacts-link" href="mailto:teren-eka@yandex.ru">
           <img class="footer__contacts-icon" src="./images/mail.svg" alt="e-mail">
           teren-eka@yandex.ru

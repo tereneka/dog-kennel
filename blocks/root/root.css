@@ -3,4 +3,34 @@
   background-color: var(--main-back);
   margin: 0;
   padding: 0 1.5vw;
+  /* сглаживание шрифтов */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* масштабирование шрифтов */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+/* Основной код для разрешения 1024px */
+@media screen and (min-width: 2560px) {
+  /* стили для больших мониторов с разрешением 4K */
+}
+@media screen and (min-width: 1440px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+}
+@media screen and (max-width: 1024px) {
+  /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+}
+@media screen and (max-width: 425px) {
+  /* стили для широкого смартфона */
+}
+@media screen and (max-width: 375px) {
+  /* стили для среднего смартфона */
+}
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
 }
