@@ -1,6 +1,6 @@
 .cards__item {
   width: 300px;
-  height: 68vh;
+  min-height: 500px;
   overflow: hidden;
   position: relative;
   border-radius: 16px;
@@ -24,5 +24,4 @@
   transform: translateY(-20px);
   margin-right: 30px;
   height: max-content;
-  min-height: 68vh;
 }

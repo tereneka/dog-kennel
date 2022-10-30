@@ -5,10 +5,10 @@
 .solid-section_scrolled::after {
   content: " ";
   width: 8px;
-  height: 70vh;
+  height: 550px;
   background-image: linear-gradient(var(--accent-bright), var(--accent-soft));
   border-radius: 16px;
   position: absolute;
-  top: 14vh;
+  top: 80px;
   right: 5%;
 }
