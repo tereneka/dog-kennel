@@ -1,4 +1,5 @@
 .img-section_name_header-title {
   min-height: 70vh;
-  background-image: url(../../../images/background1.jpg);
+  background-image: url(../../../images/back/back1.jpg);
+  background-position: center top;
 }
