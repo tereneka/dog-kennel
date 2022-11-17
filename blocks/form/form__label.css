@@ -5,3 +5,9 @@
   font-weight: 600;
   line-height: 40px;
 }
+
+@media screen and (max-width: 600px) {
+  .form__label {
+    display: block;
+  }
+}

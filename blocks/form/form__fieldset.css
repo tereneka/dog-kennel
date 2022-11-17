@@ -3,10 +3,26 @@
   border-radius: 16px;
   background: linear-gradient(85deg, var(--accent-back), var(--dark-text));
   box-shadow: 20px 20px 20px 10px var(--dark-text);
-  padding: 15vh 10vw;
+  padding: 80px;
   color: var(--dark-text);
-  min-height: 50vh;
-  width: 70vw;
-  margin: 15vh auto;
+  min-width: 815px;
+  width: max-content;
+  margin: 100px auto;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .form__fieldset {
+    min-width: 100%;
+    width: 100%;
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form__fieldset {
+    min-width: 90%;
+    width: 90%;
+    margin: 50px auto;
+  }
 }

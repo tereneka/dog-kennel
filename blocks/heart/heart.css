@@ -1,11 +1,5 @@
 .heart {
   display: inline-block;
-  background-image: url(../../images/heart-fill.svg);
-  /* background-image: radial-gradient(
-      circle at 20% 20%,
-      rgba(240, 244, 244, 0.501) 0%,
-      transparent 80%
-    ),
-    url(../../images/heart.svg); */
+  background-image: url(../../images/heart-color.svg);
   background-repeat: no-repeat;
 }

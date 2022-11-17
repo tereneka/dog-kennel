@@ -4,4 +4,11 @@
   font-weight: 800;
   text-transform: uppercase;
   color: var(--dark-text);
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 22px;
+  }
 }
