@@ -6,8 +6,14 @@
   content: "“";
   position: absolute;
   left: 0;
-  top: -4vh;
+  top: -20px;
   font-size: 80px;
   font-weight: 800;
   color: var(--accent-soft);
+}
+
+@media screen and (max-width: 767px) {
+  .solid-section__paragraph_type_quote::before {
+    font-size: 60px;
+  }
 }

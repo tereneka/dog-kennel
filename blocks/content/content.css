@@ -1,5 +1,11 @@
 .content {
-  min-height: 100vh;
-  position: relative;
-  z-index: 1;
+  width: 90%;
+  max-width: 1152px;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    width: 100%;
+  }
 }

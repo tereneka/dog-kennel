@@ -5,7 +5,7 @@
   position: relative;
   top: -20px;
   left: 0px;
-  flex-basis: 70%;
+  flex-basis: 100%;
 }
 
 .solid-section__content_scrolled::-webkit-scrollbar {

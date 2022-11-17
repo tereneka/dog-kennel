@@ -1,5 +1,5 @@
 .img-section {
-  padding: 0 15vw;
+  padding: 0 15%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,4 +7,16 @@
   color: white;
   background-size: cover;
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 900px) {
+  .img-section {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-section {
+    padding: 0 16px;
+  }
 }

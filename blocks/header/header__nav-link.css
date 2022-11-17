@@ -1,7 +1,9 @@
-.nav__link {
+.header__nav-link {
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 16px;
   font-weight: 600;
+  white-space: nowrap;
   position: relative;
   /* ниже свойства для смены цвета и подчеркивания ссыдки при наведении */
   background-image: linear-gradient(
@@ -18,7 +20,7 @@
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
 }
-.nav__link::before {
+.header__nav-link::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -32,11 +34,11 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.nav__link:hover {
+.header__nav-link:hover {
   background-position: 0;
 }
 
-.nav__link:hover::before {
+.header__nav-link:hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }

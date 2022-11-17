@@ -5,6 +5,20 @@
   display: flex;
   justify-content: center;
   color: var(--dark-text);
-  gap: 10vw;
+  gap: 10%;
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .solid-section {
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .solid-section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

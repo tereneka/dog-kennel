@@ -3,6 +3,13 @@
   font-size: 40px;
   font-weight: 700;
   color: var(--accent-soft);
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px var(--dark-text);
   position: relative;
-  z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .logo__text {
+    font-size: 25px;
+  }
 }

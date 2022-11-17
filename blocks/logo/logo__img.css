@@ -5,11 +5,17 @@
   background-image: url(../../images/logo-img.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  vertical-align: sub;
   transition: all 0.5s;
 }
 
 .logo:hover .logo__img {
   scale: 1.5;
   rotate: -30deg;
+}
+
+@media screen and (max-width: 600px) {
+  .logo__img {
+    width: 25px;
+    height: 28px;
+  }
 }

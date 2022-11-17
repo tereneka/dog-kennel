@@ -3,3 +3,9 @@
   background-image: url(../../../images/back/back1.jpg);
   background-position: center top;
 }
+
+@media screen and (max-width: 600px) {
+  .img-section_name_header-title {
+    background-position: 60% top;
+  }
+}

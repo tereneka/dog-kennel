@@ -4,3 +4,9 @@
   font-size: 50px;
   font-weight: 800;
 }
+
+@media screen and (max-width: 767px) {
+  .img-section__title {
+    font-size: 30px;
+  }
+}

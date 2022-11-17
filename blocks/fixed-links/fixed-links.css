@@ -1,8 +1,22 @@
 .fixed-links {
   position: fixed;
-  bottom: 10px;
+  bottom: 20px;
   z-index: 1;
-  width: 97%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 5%;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .fixed-links {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .fixed-links {
+    padding: 0 calc((100% - 1152px) / 2);
+  }
 }

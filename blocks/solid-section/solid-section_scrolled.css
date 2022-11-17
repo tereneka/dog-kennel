@@ -10,5 +10,21 @@
   border-radius: 16px;
   position: absolute;
   top: 80px;
-  right: 5%;
+  right: -4px;
+}
+
+@media screen and (max-width: 767px) {
+  .solid-section_scrolled {
+    gap: 60px;
+  }
+
+  .solid-section_scrolled::after {
+    top: 175px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .solid-section_scrolled::after {
+    right: 8px;
+  }
 }

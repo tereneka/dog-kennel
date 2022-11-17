@@ -5,3 +5,9 @@
   font-weight: 600;
   color: var(--accent-soft);
 }
+
+@media screen and (max-width: 767px) {
+  .solid-section__title {
+    font-size: 30px;
+  }
+}

@@ -2,7 +2,6 @@
   text-decoration: none;
   color: white;
   padding: 8px;
-  border: 2px solid var(--accent-bright);
   border-radius: 4px;
   font-size: 16px;
   font-weight: 600;
@@ -10,9 +9,9 @@
   position: relative;
   background-image: linear-gradient(
     to right,
-    var(--accent-bright),
-    var(--accent-soft) 50%,
-    var(--accent-soft) 50%
+    var(--accent-soft),
+    var(--accent-bright) 50%,
+    var(--accent-bright) 50%
   );
   background-size: 200% 100%;
   background-position: -110%;

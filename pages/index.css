@@ -14,7 +14,6 @@
 
 @import url(../blocks/fixed-links/fixed-links.css);
 @import url(../blocks/fixed-links/fixed-links__link.css);
-@import url(../blocks/up/up.css);
 
 @import url(../blocks/img-section/img-section.css);
 @import url(../blocks/img-section/img-section__title.css);
@@ -26,12 +25,10 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_page/header_page_index.css);
 @import url(../blocks/header/header__nav.css);
+@import url(../blocks/header/header__nav-list.css);
+@import url(../blocks/header/header__nav-link.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo/_page/header__logo_page_index.css);
-
-@import url(../blocks/nav/nav.css);
-@import url(../blocks/nav/nav__list.css);
-@import url(../blocks/nav/nav__link.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/logo__img.css);
