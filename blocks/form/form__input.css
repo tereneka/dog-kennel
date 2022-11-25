@@ -41,7 +41,7 @@
   -moz-appearance: none;
   appearance: none;
   background-color: rgb(128, 128, 128);
-  margin: 0 8px 4px 0;
+  margin: 0 80px 4px 0;
   color: rgb(128, 128, 128);
   border-radius: 50%;
   width: 1px;
@@ -52,14 +52,14 @@
   outline: none;
 }
 
-.form__input[type="radio"]:active,
+/* .form__input[type="radio"]:active,
 .form__input[type="radio"]:hover {
   width: 1px;
   height: 1px;
   outline: none;
   outline-offset: 0;
   box-shadow: none;
-}
+} */
 
 .form__input[type="radio"]::before {
   content: "";
