@@ -52,6 +52,12 @@
   outline: none;
 }
 
+.form__input[type="radio"]:active,
+.form__input[type="radio"]:hover {
+  width: 1px;
+  height: 1px;
+}
+
 .form__input[type="radio"]::before {
   content: "";
   position: absolute;
