@@ -2,6 +2,7 @@
   min-height: 70vh;
   background-image: url(../../../images/back/back1.jpg);
   background-position: center top;
+  position: relative;
 }
 
 @media screen and (max-width: 600px) {

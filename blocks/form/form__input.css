@@ -37,28 +37,24 @@
 }
 
 .form__input[type="radio"] {
-  -webkit-appearance: none;
-  appearance: none;
-  height: 16px;
-  width: 16px;
-  background-image: url(../../images/heart-outline.svg);
+  height: 0;
+  width: 0;
   display: inline-block;
-  vertical-align: text-bottom;
   position: relative;
+  margin-left: 20px;
 }
 
 .form__input[type="radio"]::before {
   content: "";
   position: absolute;
-  left: -2px;
-  top: -2px;
+  left: -20px;
+  top: -15px;
   height: 20px;
   width: 20px;
-  background-image: url(../../images/heart-color.svg);
-  scale: 0;
+  background-image: url(../../images/heart-outline.svg);
   transition: all 0.3s ease-in-out;
 }
 
 input[type="radio"]:checked::before {
-  scale: 1;
+  background-image: url(../../images/heart-color.svg);
 }

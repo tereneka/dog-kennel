@@ -9,6 +9,9 @@
 
 @import url(../blocks/root/root__hr.css);
 
+@import url(../blocks/heart/heart.css);
+@import url(../blocks/heart/heart_size_s.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_page/header_page_order.css);
 @import url(../blocks/logo/logo.css);
@@ -34,3 +37,7 @@
 
 @import url(../blocks/form/form__buttons-group.css);
 @import url(../blocks/button/button.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup_opened.css);
+@import url(../blocks/popup/popup__text.css);

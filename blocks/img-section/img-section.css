@@ -6,7 +6,12 @@
   gap: 40px;
   color: white;
   background-size: cover;
-  background-attachment: fixed;
+}
+
+@supports (background-attachment: fixed) {
+  .img-section {
+    background-attachment: fixed;
+  }
 }
 
 @media screen and (max-width: 900px) {

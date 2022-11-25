@@ -9,15 +9,3 @@
   position: relative;
   overflow-x: hidden;
 }
-
-/* .root::before {
-  content: "";
-  width: 90%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 5%;
-  background-image: url(../../images/back/back1.jpg);
-  background-size: cover;
-  z-index: -1;
-} */
