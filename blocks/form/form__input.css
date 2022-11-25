@@ -37,11 +37,17 @@
 }
 
 .form__input[type="radio"] {
-  height: 0;
-  width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: rgb(128, 128, 128);
+  margin: 0 8px 4px 0;
+  color: rgb(128, 128, 128);
+  border-radius: 50%;
+  width: 1px;
+  height: 1px;
   display: inline-block;
   position: relative;
-  margin-left: 30px;
   clip: rect(0 0 0 0);
   outline: none;
 }
@@ -49,13 +55,13 @@
 .form__input[type="radio"]::before {
   content: "";
   position: absolute;
-  left: -30px;
-  top: -15px;
-  height: 30px;
-  width: 30px;
+  left: -10px;
+  top: -8px;
+  height: 20px;
+  width: 20px;
   background-image: url(../../images/heart-outline.svg);
   background-size: 20px;
-  background-position: top left;
+  background-position: center;
   background-repeat: no-repeat;
   transition: all 0.3s;
   overflow: visible;
