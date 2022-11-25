@@ -56,6 +56,9 @@
 .form__input[type="radio"]:hover {
   width: 1px;
   height: 1px;
+  outline: none;
+  outline-offset: 0;
+  box-shadow: none;
 }
 
 .form__input[type="radio"]::before {
