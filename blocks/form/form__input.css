@@ -60,13 +60,17 @@
   height: 20px;
   width: 20px;
   background-image: url(../../images/heart-outline.svg);
-  background-size: 20px;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
   overflow: visible;
 }
 
-input[type="radio"]:checked::before {
+.form__input[type="radio"]:checked::before {
   background-image: url(../../images/heart-color.svg);
+}
+
+.form__input[type="radio"]:active::before {
+  scale: 1.5;
 }
