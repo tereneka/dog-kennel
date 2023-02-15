@@ -37,49 +37,24 @@
 }
 
 .form__input[type="radio"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: rgb(128, 128, 128);
-  margin: 0 80px 4px 0;
-  color: rgb(128, 128, 128);
-  border-radius: 50%;
-  width: 1px;
-  height: 1px;
+  height: 0;
+  width: 0;
   display: inline-block;
   position: relative;
-  clip: rect(0 0 0 0);
-  outline: none;
+  margin-left: 20px;
 }
-
-/* .form__input[type="radio"]:active,
-.form__input[type="radio"]:hover {
-  width: 1px;
-  height: 1px;
-  outline: none;
-  outline-offset: 0;
-  box-shadow: none;
-} */
 
 .form__input[type="radio"]::before {
   content: "";
   position: absolute;
-  left: -10px;
-  top: -8px;
+  left: -20px;
+  top: -15px;
   height: 20px;
   width: 20px;
   background-image: url(../../images/heart-outline.svg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   transition: all 0.3s ease-in-out;
-  overflow: visible;
 }
 
-.form__input[type="radio"]:checked::before {
+input[type="radio"]:checked::before {
   background-image: url(../../images/heart-color.svg);
-}
-
-.form__input[type="radio"]:active::before {
-  scale: 1.5;
 }
